@@ -15,10 +15,10 @@ following view has a Button located at the mid-bottom center of the view with te
 following view has a Label located at the bottom center of the view with text sign up
 following view has Button located at the main area center of the view, text for button needs identified
 view has actions which trigger on events, view should should error messages and display activity indicator when processing
-the sign up view has a profile icon located at the very-top center of the view which on click will trigger the profile() action
 the signup view has a profile icon located at the very-top center of the view which on click will trigger the profile() action
-the sign up view has a profile icon located at the very-top center of the view which on click will trigger the profile() action
 the sign in view has a profile icon located at the very-top center of the view which on click will trigger the profile() action
+the sign up view has a profile icon located at the very-top center of the view which on click will trigger the profile() action
+the sign up view has a profile icon located at the very-top center of the view which on click will trigger the profile() action
 the following view has a profile icon located at the very-top center of the view which on click will trigger the profile() action
 
 */
