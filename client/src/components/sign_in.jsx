@@ -7,12 +7,17 @@ created by: FusionCode
 // Component Requirements
 //----------------------------------------------------------------------------------------------------------
 
-sign in view has Label located at the top center of the view, text needs identified
-sign in view has Label located at the top center of the view, text needs identified
-the sign in view has a Input Box located at the mid-top in the center of the view, correct text needs defined
-sign in view has Label located at the mid-top left of the view, text needs identified
-sign in view has Label located at the main area left of the view, text needs identified
-sign in view has Label located at the bottom center of the view, text needs identified
+the sign up view has a status bar located at the very-top across the full width of the view
+the sign up view has a Headline Label located at the top left of the view, correct text needs defined
+sign up view has Label located at the top left of the view, text needs identified
+sign up view has Label located at the top left of the view, text needs identified
+sign up view has Label located at the top left of the view, text needs identified
+sign up view has Label located at the mid-top left of the view, text needs identified
+sign up view has Label located at the mid-top left of the view, text needs identified
+sign up view has Label located at the main area left of the view, text needs identified
+the sign up view has a Pager located at the main area left of the view, correct text needs defined
+sign up view has Label located at the bottom center of the view, text needs identified
+sign up view has Label located at the bottom center of the view, text needs identified
 view has actions which trigger on events, view should should error messages and display activity indicator when processing
 
 */
@@ -83,7 +88,15 @@ password : '',
                     show_loading_indicator === true ? <i className="fa fa-circle-o-notch fa-spin fa-3x fa-fw"></i> : 
                     <Col md={12}>
 
-                        				<Button className="btn "><!-- --></Button> 
+                        				{/*<!-- TODO: Confirm label text --> */}
+
+			</Col>
+
+			<Col md={12}>
+				{/* <!-- TODO: Create unit test for \iup action --> */}
+				<Button 
+                        className="btn btn-lg btn-block " 
+                        onClick={() => this.\iup()}>\iup</Button> 
 
 			</Col>
 
