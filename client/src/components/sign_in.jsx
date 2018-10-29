@@ -23,7 +23,7 @@ import { bindActionCreators } from 'redux';
 import { Row, Col , Button } from 'reactstrap';
         
         
-        import { login_action }  from '../actions/sign_inActions.js'; 
+        import { login_action, postLogin }  from '../actions/sign_inActions.js'; 
 
         
         
@@ -106,7 +106,7 @@ password : '',
         }
     
         function mapDispatchToProps(dispatch) {
-            return bindActionCreators({ login_action  }, dispatch);
+            return bindActionCreators({ login_action, postLogin  }, dispatch);
         }
     
    
