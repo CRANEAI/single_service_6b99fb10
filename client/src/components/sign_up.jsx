@@ -74,7 +74,7 @@ class signupView extends React.Component {
             <Col md={12}>
               {/* <!-- TODO: Create unit test for sign_up action --> */}
               <Button
-                className="btn btn-lg btn-block button-white-undefined"
+                className="btn btn-lg btn-block button-white-block"
                 onClick={() => this.sign_up()}
               >
                 sign up
