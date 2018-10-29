@@ -1,0 +1,6 @@
+
+        rootProject.name = 'single_service'
+
+        include ':app'
+        /* add slim_filename application modules here */
+        
