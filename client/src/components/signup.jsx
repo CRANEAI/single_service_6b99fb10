@@ -7,17 +7,12 @@ created by: FusionCode
 // Component Requirements
 //----------------------------------------------------------------------------------------------------------
 
-the signup view has a status bar located at the very-top across the full width of the view
-the signup view has a Headline Label located at the top left of the view, correct text needs defined
-signup view has Label located at the top left of the view, text needs identified
-signup view has Label located at the top left of the view, text needs identified
-signup view has Label located at the top left of the view, text needs identified
-signup view has Label located at the mid-top left of the view, text needs identified
-signup view has Label located at the mid-top left of the view, text needs identified
-signup view has Label located at the main area left of the view, text needs identified
-the signup view has a Pager located at the main area left of the view, correct text needs defined
-signup view has Label located at the bottom center of the view, text needs identified
-signup view has Label located at the bottom center of the view, text needs identified
+sign in view has Label located at the top center of the view, text needs identified
+sign in view has Label located at the top center of the view, text needs identified
+the sign in view has a Input Box located at the mid-top in the center of the view, correct text needs defined
+sign in view has Label located at the mid-top left of the view, text needs identified
+sign in view has Label located at the main area left of the view, text needs identified
+sign in view has Label located at the bottom center of the view, text needs identified
 view has actions which trigger on events, view should should error messages and display activity indicator when processing
 
 */
@@ -78,15 +73,7 @@ import { Row, Col , Button } from 'reactstrap';
                     show_loading_indicator === true ? <i className="fa fa-circle-o-notch fa-spin fa-3x fa-fw"></i> : 
                     <Col md={12}>
 
-                        				{/*<!-- TODO: Confirm label text --> */}
-
-			</Col>
-
-			<Col md={12}>
-				{/* <!-- TODO: Create unit test for ﬂ action --> */}
-				<Button 
-                        className="btn btn-lg btn-block " 
-                        onClick={() => this.ﬂ()}>ﬂ</Button> 
+                        				<Button className="btn "><!-- --></Button> 
 
 			</Col>
 
