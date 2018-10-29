@@ -17,7 +17,7 @@
         
         import sign_in from './components/sign in.jsx'
 import signup from './components/signup.jsx'
-import login from './components/login.jsx'
+import following from './components/following.jsx'
 import sign_up from './components/sign up.jsx'
 import sign_up from './components/sign up.jsx'
        
@@ -43,7 +43,7 @@ import sign_up from './components/sign up.jsx'
                         <Route path "/" component={sign_in}
                         <Route path="/sign_in" component={sign_in} /> 
 ,<Route path="/signup" component={signup} /> 
-,<Route path="/login" component={login} /> 
+,<Route path="/following" component={following} /> 
 ,<Route path="/sign_up" component={sign_up} /> 
 ,<Route path="/sign_up" component={sign_up} /> 
 
